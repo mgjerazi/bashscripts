@@ -22,8 +22,4 @@ else
 	echo "Sad to see you go, $adventurer!"
 fi
 
-####
-
-pickEqp
-
-listEqp
+###

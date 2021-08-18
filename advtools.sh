@@ -1,5 +1,4 @@
-pickEqp(){
-
+#!/bin/bash
 while [[ "$choice" != "q" ]]
 do
 
@@ -26,16 +25,3 @@ do
                         ;;
         esac
 done
-}
-
-
-listEqp() {
-
-        echo
-        echo "Your equipment:"
-        for i in "${equipment[@]}"
-        do
-                echo $i
-        done
-
-}

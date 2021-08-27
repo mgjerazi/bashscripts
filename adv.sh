@@ -22,4 +22,4 @@ else
 	echo "Sad to see you go, $adventurer!"
 fi
 
-###
+###Test with conditions

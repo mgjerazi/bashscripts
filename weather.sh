@@ -1,18 +1,15 @@
 #!/bin/bash
+#weather.sh: add ability to read simple config file
+CONF="weather.conf"
 
-read -r conf value < $CONF
+# Read config if exists
+if [ -f "$CONF" ]; then
+    source "$CONF"
+else
+    echo "Config file $CONF not found!"
+    exit 1
+fi
 
-IFS=":"
-
-while read -r keyword value
-do
-	keyword=$(echo "$keyword" | sed 's/"//g')
-	value=$(echo "$value" | sed 's/[",]//g')
-	if [[ "$keyword" == "city" ]]
-	then
-		echo "The City is: $value"
-	else 
-		echo "Keyword $keyword"
-		echo "Value is $value"
-	fi
-done < $1
+# Example use (dummy command)
+echo "Fetching weather for $CITY using $UNITS units..."
+# curl "https://api.weather/api?city=$CITY&units=$UNITS&key=$APIKEY"

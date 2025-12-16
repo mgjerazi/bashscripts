@@ -1,7 +1,7 @@
 #!/bin/bash
 
-while [[ "$ans" != "n" ]]
+while [[ "$answer" != "n" ]]
 do
 	echo "Do you want to loop?"
-	read ans
+	read answer
 done

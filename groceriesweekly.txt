@@ -1,0 +1,34 @@
+[Dairy]
+[ ] milk
+[ ] yogurt
+[ ] parmesan cheese
+[ ] feta cheese
+[ ] cream cheese
+[ ] ricotta
+[ ] butter
+
+[ ] [Vegetables]
+[ ] tomatoes
+[ ] cucumber
+[ ] potatoes
+
+[Fruits]
+[ ] oranges
+[ ] apples
+[ ] bananas
+
+[Bakery]
+[ ] bread
+[ ] tost
+[ ] pancakes
+[ ] waffle
+
+[Meat]
+[ ] ham
+[ ] pork Meat
+[ ] chicken Meat
+
+[Snacks]
+[ ] snickers
+[ ] mars chockolate
+[ ] potato chips

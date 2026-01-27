@@ -1,0 +1,109 @@
+{
+  "Dairy": [
+    {
+      "name": "milk",
+      "qty": 2,
+      "bought": false
+    },
+    {
+      "name": "cheese",
+      "qty": 1,
+      "bought": false
+    },
+    {
+      "name": "yogurt",
+      "qty": 2,
+      "bought": false
+    },
+    {
+      "name": "butter",
+      "qty": 1,
+      "bought": false
+    }
+  ],
+  "Vegetables": [
+    {
+      "name": "tomatoes",
+      "qty": 5,
+      "bought": false
+    },
+    {
+      "name": "cucumber",
+      "qty": 2,
+      "bought": false
+    }
+  ],
+  "Fruits": [
+    {
+      "name": "apples",
+      "qty": 6,
+      "bought": false
+    },
+    {
+      "name": "oranges",
+      "qty": 5,
+      "bought": false
+    },
+    {
+      "name": "bananas",
+      "qty": 3,
+      "bought": false
+    },
+    {
+      "name": "grape",
+      "qty": 1,
+      "bought": false
+    },
+    {
+      "name": "peach",
+      "qty": 2,
+      "bought": false
+    }
+  ],
+  "Bakery": [
+    {
+      "name": "pancakes",
+      "qty": 4,
+      "bought": false
+    },
+    {
+      "name": "waffle",
+      "qty": 2,
+      "bought": false
+    }
+  ],
+  "Meat": [
+    {
+      "name": "ham",
+      "qty": 1,
+      "bought": false
+    },
+    {
+      "name": "pork",
+      "qty": 2,
+      "bought": false
+    },
+    {
+      "name": "chicken",
+      "qty": 3,
+      "bought": false
+    }
+  ],
+  "Snacks": [
+    {
+      "name": "snickers",
+      "qty": 6,
+      "bought": false
+    },
+    {
+      "name": "mars",
+      "qty": 2,
+      "bought": false
+    },
+    {
+      "name": "chips",
+      "qty": 3,
+      "bought": false
+    }
+  ]
+}
